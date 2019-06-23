@@ -1,0 +1,236 @@
+* {
+    text-decoration: none;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+section {
+    display: block
+}
+
+header {
+    background-color: white;
+    padding: 5px;
+}
+
+header div {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+.singInBtn {
+    font-size: 15px;
+    height: 46px;
+    background-color: #007bff;
+    border-radius: 5px;
+    padding: 10px 15px;
+    color: white;
+}
+
+header div a {
+    font-size: 20px;
+    color: black;
+}
+
+
+/* header */
+
+#section-entry {
+    background: url(../image/ana-sehife.jpg) no-repeat center center;
+    display: flex;
+    padding-bottom: 20%;
+    padding-top: 20%;
+    align-items: center;
+    text-align: center;
+    background-color: #343a40;
+    position: relative
+}
+
+#section-entry h1 {
+    font-size: 50px;
+    color: white;
+    margin-bottom: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#section-entry input {
+    height: 46px;
+    font-size: 22px;
+    border-radius: 5px;
+    padding-right: 16px;
+    padding-left: 16px;
+    width: 30%;
+}
+
+.singUp {
+    height: 46px;
+    font-size: 19px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+    margin-left: 8px;
+    border-color: transparent;
+    color: #fff;
+    background-color: #007bff;
+}
+
+.headerUp {
+    position: absolute;
+}
+
+.arxafon {
+    position: absolute;
+    background-color: #212529;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: .3;
+}
+
+
+/*section-entry*/
+
+.section-service {
+    background-color: white;
+    display: inline-block;
+}
+
+.yerlesdir {
+    display: flex;
+    align-content: center;
+    text-align: center;
+    padding: 160px;
+}
+
+.icons {
+    font-size: 50px;
+    color: #007bff;
+    margin: 0 0 10px 0;
+}
+
+.icons:hover {
+    font-size: 70px;
+}
+
+.text1 {
+    margin: 0 20px
+}
+
+
+/*section-image*/
+
+.parimg {
+    display: flex;
+    padding: 0;
+}
+
+.section-image {
+    display: flex;
+}
+
+.write {
+    flex: 1;
+    text-align: center;
+    margin: 200px 0 0 0;
+}
+
+.iphone {
+    flex: 1;
+    background-image: url(../image/phone-img.jpg);
+    height: 500px;
+}
+
+.code {
+    flex: 1;
+    background-image: url(../image/html-img.jpg);
+    height: 500px;
+}
+
+.child {
+    flex: 1;
+    background-image: url(../image/child-img.jpg);
+    height: 500px;
+}
+
+
+/*section-contact*/
+
+.contactflex {
+    display: flex;
+}
+
+.flex {
+    flex: 1;
+    border-radius: 50%;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+.section-contact {
+    text-align: center;
+}
+
+.contactflex img {
+    border-radius: 50%;
+    max-width: 12rem;
+}
+
+.section-contact h2 {
+    padding: 10px;
+}
+
+.desc {
+    font-style: italic;
+    color: #363434;
+}
+
+
+/*section end*/
+
+.section-end {
+    background: url(../image/ana-sehife.jpg) no-repeat center center;
+    display: flex;
+    padding-bottom: 10%;
+    padding-top: 10%;
+    background-color: #343a40;
+    position: relative;
+    margin-top: 100px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.section-end h1 {
+    font-size: 25px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.section-end input {
+    height: 46px;
+    font-size: 15px;
+    border-radius: 5px;
+    padding-right: 16px;
+    padding-left: 16px;
+    width: 240px;
+}
+
+
+/*footer*/
+
+footer {
+    padding: 60px 0 40px 120px;
+}
+
+footer div a {
+    color: #007bff;
+    padding-bottom: 10px;
+}
